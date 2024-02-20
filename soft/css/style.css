@@ -1,0 +1,239 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*/
+.nav-pills-custom .nav-link {
+  color: #aaa;
+  background: #fff;
+  position: relative;
+}
+
+.nav-pills-custom .nav-link.active {
+  color: #45b649;
+  background: #fff;
+}
+
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+  .nav-pills-custom .nav-link::before {
+      content: '';
+      display: block;
+      border-top: 8px solid transparent;
+      border-left: 10px solid #fff;
+      border-bottom: 8px solid transparent;
+      position: absolute;
+      top: 50%;
+      right: -10px;
+      transform: translateY(-50%);
+      opacity: 0;
+  }
+}
+
+.nav-pills-custom .nav-link.active::before {
+  opacity: 1;
+}
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*/
+body {
+  min-height: 100vh;
+  background-color: white !important;
+}
+
+  /*-------------------------------------------------*/
+  /*=  show more style:  eg., class="comment more"
+  /*-------------------------------------------------*/
+ 
+a.morelink {
+    text-decoration:none;
+    outline: none;
+}
+.morecontent span {
+    display: none;
+}
+.comment {
+    width: 1000px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+/*-------------------------------------------------*/
+/*=  Numbering Here.SOCIAL MEDIA SHARE 
+/*-------------------------------------------------*/
+  .icon-float {
+      position: fixed;
+    /* left: 0px;
+      */
+      top: 35%;
+      z-index: 999;
+      right: 15px;
+}
+  .icon-float ul {
+      padding: 0px;
+}
+  .icon-float ul li {
+      list-style-type: none;
+}
+  .icon-float ul li a {
+      display: block;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      padding: 0px;
+}
+  .icon-float ul li a i {
+      padding: 8px;
+      width: 50px;
+      height: 38px;
+      text-align: center;
+      color: #fff;
+}
+  .icon-float ul li a:hover {
+      transform: rotateY(-180deg);
+}
+  .icon-float ul li a:hover i {
+      transform: rotateY(180deg);
+}
+  .fb1 {
+      background: #3b5998;
+}
+  .gp1 {
+      background: #dd4b39;
+}
+  .tw1 {
+      background: #1da1f2;
+}
+  .li1 {
+      background: #0077b5;
+}
+  .yt1 {
+      background: #cd201f;
+}
+  .wa1 {
+      background: #34af23;
+}
+  .sh {
+      background: #fff;
+      padding: 10px 0px;
+      font-size: 11px;
+      text-align: center;
+      color: #333;
+      border-top-left-radius: 5px;
+}
+  .sh1 {
+      background: #333;
+      border-bottom-left-radius: 5px;
+}
+/*-------------------------------------------------*/
+
+  body, html {
+      height: 100%;
+      /* Full height */
+      height: 100%;
+      /* Center and scale the image nicely */
+  }
+
+  ::-webkit-scrollbar {
+      width: 20px;
+  }
+
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: white;
+      border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+      background: white;
+  }
+
+  /* IMPORT GOOGLE FONTS */
+  @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+  /* NEWS FRAME AREA TOP LEVEL PAGE - WIDTH ADDS BORDER */
+  #news_iframe_scroll	{
+    width: 100%;
+    max-width: 350px;
+    min-width: 250px;
+    margin: 0px auto 10px auto;
+    border: #EEEDED 1px solid;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #news_iframe_scroll iframe {
+    width: 100%;
+    height: 200px; /* IF YOU EDIT HEIGHT EDIT THE SCROLLING SCRIPT HEIGHT!!!! */
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .news_scroll-title {
+    color: #FFFFFF;
+    font: normal 20px "Droid Sans", arial, sans-serif;
+    text-align: left;
+    background-color: #0F8515;
+    padding: 5px 5px 5px 5px;
+    border-bottom: #C0C0C0 5px solid;
+  }
+  /* EMBEDDED NEWS PAGE BODY */
+  #NewsDiv	{ position: absolute;
+    left: 0;
+    top: 0px;
+    width: 100%;
+  }
+  body.news-scroll {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  /* FONTS & PADDING */
+  .scroll-text-if	{
+    color: #666666;
+    font: normal 12px "Droid Sans", arial, sans-serif;
+    text-align: left;
+    padding: 8px 7px 0px 7px;
+  }
+  .scroll-title-if {
+    color: #000000;
+    font: bold 15px "Droid Sans", arial, sans-serif;
+    text-align: left;
+    border-bottom: #666666 0px solid;
+  }
+  /* EMBEDDED NEWS PAGE LINK COLORS */
+  .news-scroll a:link	{
+    color: #0033FF;
+    text-decoration: none;
+  }
+  .news-scroll a:visited	{
+    color: #6633FF;
+    text-decoration: none;
+  }
+  .news-scroll a:active	{
+    color: #0033FF;
+    text-decoration: none;
+  }
+  .news-scroll a:hover	{
+    color: #6699FF;
+    text-decoration: underline;
+  }
+
+
+
+
+  
