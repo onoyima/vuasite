@@ -8,10 +8,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . '../admission/layouts/hed.php'); ?>
+  <?php include($_SERVER['DOCUMENT_ROOT'] . '../admission/layouts/head.php'); ?>
 
 </head>
 
 <body class="bg-color-lightblue">
+
+<?php include($_SERVER['DOCUMENT_ROOT'] . '../layouts/header.php'); ?>
   <div id="wrapper" class="clearfix">
 
     <!-- Start main-content -->

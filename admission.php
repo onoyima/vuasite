@@ -1,19 +1,10 @@
-<!doctype html>
-<html lang="en" dir="ltr" class="no-js">
 
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=2.0 user-scalable=yes" />
 
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="shortcut icon" href="public/image/favicon.png" />
-
-  <link rel="canonical" href="index.php" />
-  <link rel="shortlink" href="index.php" />
   <title>Admissions | Veritas University</title>
   <?php include('./layouts/head.php'); ?>
+  <?php include('./layouts/hed.php'); ?>
   
 </head>
 
@@ -25,10 +16,10 @@
   <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDB29T" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section id="visible-body" class="visible-body">
 
-    <!-- HEADER SECTIONSSDS -->
+    <!-- HEADER SECTIONS -->
 
     <?php include('./layouts/header.php'); ?>
-    <!-- HEADERS SECTION ENDSss  -->
+    <!-- HEADERS SECTION ENDS  -->
 
 
 
@@ -36,7 +27,7 @@
 
     <section id="page-content" class="page-level page-content">
       <div class="wrapper">
-        <div class="row space-header">
+        <div class="ros space-header">
 
 
           <section class="page-content-level column page-content-main" id="page-content-main">
@@ -44,7 +35,7 @@
             <div class="pre-content" id="pre-content">
               <section id="breadcrumb-wrapper" class="page-level breadcrumb-wrapper">
                 <div class="wrapper">
-                  <div class="row">
+                  <div class="ros">
                     <div class="breadcrumb"><span class='breadcrumb-link breadcrumb-depth-0 breadcrumb-even breadcrumb-first'><a href="index.html">Home</a></span><span class='breadcrumb-link breadcrumb-depth-1 breadcrumb-odd breadcrumb-last'>Admissions</span>
                     </div>
                   </div>
@@ -69,7 +60,7 @@
 
 
                       <div class="container-fluid">
-                        <div class="row mapsec">
+                        <div class="ros mapsec">
                           <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
@@ -86,6 +77,9 @@
 
                               <div class="item">
                                 <img src="admission/images/3.jpg" alt="Chicago" style="width:100%;">
+                              </div>
+                              <div class="item">
+                                <img src="admission/images/dot.jpg" alt="Chicago" style="width:100%;">
                               </div>
 
                               <div class="item">
@@ -105,7 +99,10 @@
                           </div>
                         </div>
                       </div>
-                      <a class="field-group-group_link_wrapper link-block  link-block-no-image " href="admissions.html">
+                      
+                      
+                      
+                      <a class="field-group-group_link_wrapper link-block  link-block-no-image " href="admission.php">
                         <div class="link-block-bgimage-wrapper">
                           <h2>Study at Veritas</h2>
                         </div>
@@ -153,7 +150,7 @@
                             <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
 
 
-                              <span class="field-item-single"><img typeof="foaf:Image" src="public/image/shaped.JPG" width="370" height="222" alt="Students" /></span>
+                              <span class="field-item-single"><img typeof="foaf:Image" src="admission/images/p.jpg" width="370" height="222" alt="Students" /></span>
                             </div>
                           </div>
                         </a>
@@ -173,7 +170,7 @@
                             <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
 
 
-                              <span class="field-item-single"><img typeof="foaf:Image" src="public/image/shaped.JPG" width="370" height="222" alt="Students" /></span>
+                              <span class="field-item-single"><img typeof="foaf:Image" src="admission/images/p.jpg" width="370" height="222" alt="Students" /></span>
                             </div>
                           </div>
                         </a>
@@ -194,7 +191,7 @@
                             <div class="field field-name-field-image-highlight field-type-image field-label-hidden">
 
 
-                              <span class="field-item-single"><img typeof="foaf:Image" src="public/image/shaped.JPG" width="370" height="222" alt="people at a seminar" /></span>
+                              <span class="field-item-single"><img typeof="foaf:Image" src="admission/images/dot.jpg" width="370" height="222" alt="people at a seminar" /></span>
                             </div>
                           </div>
                         </a>
@@ -211,7 +208,7 @@
 
             </section>
 
-            <div class="row section-index-sidebar-wrapper">
+            <div class="ros section-index-sidebar-wrapper">
               <section class="page-content-level column page-content-sidebar-second" id="page-content-sidebar-second">
 
 

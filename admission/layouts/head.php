@@ -1,20 +1,20 @@
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <meta name="description" content="Veritas University | Best University in Nigeria" />
-  <meta name="keywords" content="academy, course, education, education html theme, elearning, learning," />
-  <meta name="author" content="Veritas School" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=2.0 user-scalable=yes" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description"
+    content="Veritas University provides research and education to benefit society on a local, regional, national and global scale." />
+    <link rel="canonical" href="index.php" />
+  <link rel="shortlink" href="index.php" />
+
   <link rel="shortcut icon" href="../../public/image/favicon.png" />
 
 
-  <link rel="canonical" href="index.html" />
-  <link rel="shortlink" href="index.html" />
+ 
 
 
 
-  <link rel="stylesheet" href="../../../../public/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css"/>
-  <!-- <link rel="stylesheet" href="../../public/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" /> -->
+  <link rel="stylesheet" href="../../public/advagg_css/css__BJ6Ou6QsBRtnFTmxaakamOIS8n4QswDP2XnnZ1sxtaM__NBuvkP6eInGIkb1aJvUHx5PX79XApuxBDkk_77W5tYk__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
   <link rel="stylesheet" href="../../public/advagg_css/css__OyUP6r6gWDd7g9HyyAPkKcCADXUItAUJ0V1T56grclU__FuqzBzxXKRNUpj8PLQAdrhyLDXCwU45tzRGQV4CBhIw__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
   <link rel="stylesheet" href="../../public/advagg_css/css__UY0etF999x6scvHTvffNHjT4VTicfJnEfYWgom9UZQI__dNVH3JLLE0t7cJHT-k4bgEZN3astY3g0CO9bzrNM3u0__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic&amp;subset=latin,latin-ext" />
@@ -24,16 +24,12 @@
 
   <!-- === Remix Icons ===  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   <!-- === Swiper CSS === -->
-  <link rel="stylesheet" href="../../assets/css/swiper-bundle-min.css" />
+  <link rel="stylesheet" href="./assets/css/swiper-bundle-min.css" />
 
   <!-- === CSS === -->
-  <link rel="stylesheet" href="../../assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
   <style>
     .shared-event-styling .content-meta {
@@ -390,7 +386,7 @@
 
     .oxweb-primary-menu-block ul li.expanded a,
     .oxweb-secondary-menu-block ul li.expanded a {
-      background: url('../../sites/default/themes/custom/oxweb/images/menu_arrow.png') 94% 1.2em no-repeat;
+      background: url('sites/default/themes/custom/oxweb/images/menu_arrow.png') 94% 1.2em no-repeat;
       background-position: right 10px top 1.3em;
       padding-right: 25px;
     }
@@ -457,7 +453,7 @@
       font-weight: normal;
       margin: 0;
       padding: 8px 36px 20px 7px;
-      background: url('../../sites/default/themes/custom/oxweb/images/menu-chevron.png') no-repeat 97.5% top;
+      background: url('sites/default/themes/custom/oxweb/images/menu-chevron.png') no-repeat 97.5% top;
       border-right: 0;
       vertical-align: top;
     }
@@ -682,7 +678,7 @@
       top: 0;
       right: 0;
       background-size: contain;
-      background: url('../../sites/default/themes/custom/oxweb/images/discover-shadow.png') no-repeat top 60px right 0px;
+      background: url('sites/default/themes/custom/oxweb/images/discover-shadow.png') no-repeat top 60px right 0px;
     }
 
     
@@ -788,7 +784,7 @@
     }
   </style>
 
-  <link rel="stylesheet" href="../../sites/files/oxford/advagg_css/css__VCgxAtneuJG94bSMsW3WtPydq_lTdG9D6PIvLts3ok0__JVePZqyFbFKeRYnRMRk-fUID1Dvt6cFmMcIBLRYP6O4__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
+  <link rel="stylesheet" href="sites/files/oxford/advagg_css/css__VCgxAtneuJG94bSMsW3WtPydq_lTdG9D6PIvLts3ok0__JVePZqyFbFKeRYnRMRk-fUID1Dvt6cFmMcIBLRYP6O4__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
   <link rel="stylesheet" href="../../public/advagg_css/css__g8a-6fwfl6ZLTZ-dErswRzrUUO2e8uCiCDmvmgwe_Mo__PEouh-Vh-zgxMoIaIQ0eRpWNmmOkydEAh3xxjUGLFws__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
   <link rel="stylesheet" href="../../public/advagg_css/css__26qqyLytH66XnCHAQPb7TQs2FQi7FpHZ23w7Km0WoBM__Ogz1RhSCXRfUObeqUzN1BjlTNCDLMH-6N6xAfzlZ8ow__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.css" />
   <script src="../../public/advagg_js/js__SlxZR0T0y0knhPGspoKKlEQqbk_RdNNsHwLrlCQRTSo__jRyIJdNHHPQDI24D74GCcZq-Uqnrf4Vs1Wh5VKn50M0__h7T-cjtV_dUO9EYp5xzvQZuTpmuCIt2rzPKmYSUARw8.js" defer="defer"></script>

@@ -1,6 +1,6 @@
-<header class="page-level page-header">
+<header class="page-level page-header ">
   <!-- ANNOUNCEMENT TAG  -->
-  <div style="color: #F3F1EC; background-color: rgb(2, 83, 94);">
+  <div style="color: rgb(2, 83, 94); background-color: #F3F1EC;">
 
     <span>
       <marquee behavior="" direction="">We are admitting Prospective Students who admires studying MBBS medicine and
@@ -9,7 +9,7 @@
 
   </div>
   <!-- ANNOUNCEMENT TAG ENDS -->
-  <div class="wrapper">
+  <div class="wrapper ">
     <div id="page-header-row" class="row page-header-row">
       <div class="logo">
         <a class="square" href="index.php" title="Home" id="site-name-square">Home</a>
@@ -106,7 +106,7 @@
           <nav id="block-menu-block-2" class="block block-menu-block oxweb-primary-menu-block homepage-role-base-menu block-menu-block-2 " aria-label="Role-based navigation">
 
             <ul>
-              <li class="first leaf has-children menu-mlid-3382"><a href="#" title="Staff Gateway">News and
+              <li class="first leaf has-children menu-mlid-3382"><a href="allnews.php" title="Staff Gateway">News and
                   Events</a></li>
               <li class="leaf menu-mlid-1112"><a href="#" title="">Alumni</a></li>
               <li class="leaf has-children menu-mlid-10176"><a href="#">Endowment Fund </a></li>
